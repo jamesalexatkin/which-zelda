@@ -4,8 +4,11 @@
 <head>
     <title>Which Zelda games can I play?</title>
 
-
     <link rel="stylesheet" href="styles.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 
@@ -25,11 +28,13 @@
             function toggleGrayscale(id) {
                 var imgs = document.getElementById(id).getElementsByTagName('img');
                 var imgToToggle = imgs[0];
-                if (imgToToggle.style.filter == "grayscale(100%)") {
-                    imgToToggle.style.filter = "grayscale(0%)";
+                if (imgToToggle.style.filter == "grayscale(0%)") {
+                    imgToToggle.style.filter = "grayscale(100%)";
+                    document.getElementById(id).getElementsByTagName('h3')[0].style.display = "none";
                 }
                 else {
-                    imgToToggle.style.filter = "grayscale(100%)";
+                    imgToToggle.style.filter = "grayscale(0%)";
+                    document.getElementById(id).getElementsByTagName('h3')[0].style.display = "block";
                 }
             }
         </script>
@@ -38,7 +43,11 @@
             <div class="card" id="nes" onclick="toggleGrayscale(this.id)">
                 <img src="images/nes.jpg" alt="NES" style="width:100%">
                 <div class="container">
-                    <h4><b>NES</b></h4>
+                    <div class="row">
+                        <h4><b>NES</b></h4>
+                        <h3 class="check-mark">✅</h3>
+                    </div>
+
                 </div>
             </div>
 
@@ -46,7 +55,10 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/SNES-Mod1-Console-Set.jpg" alt="SNES"
                     style="width:100%">
                 <div class="container">
+                    <div class="row">
                     <h4><b>SNES</b></h4>
+                    <h3 class="check-mark">✅</h3>
+                    </div>
                 </div>
             </div>
 
@@ -54,7 +66,10 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/N64-Console-Set.jpg/800px-N64-Console-Set.jpg"
                     alt="N64" style="width:100%">
                 <div class="container">
+                    <div class="row">
                     <h4><b>N64</b></h4>
+                    <h3 class="check-mark">✅</h3>
+                    </div>
                 </div>
             </div>
 
@@ -64,7 +79,10 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/GameCube-Set.jpg/800px-GameCube-Set.jpg"
                     alt="GCN" style="width:100%">
                 <div class="container">
+                    <div class="row">
                     <h4><b>GameCube</b></h4>
+                    <h3 class="check-mark">✅</h3>
+                    </div>
                 </div>
             </div>
 
@@ -72,7 +90,10 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Wii-console.jpg/600px-Wii-console.jpg"
                     alt="Wii" style="width:100%">
                 <div class="container">
+                    <div class="row">
                     <h4><b>Wii</b></h4>
+                    <h3 class="check-mark">✅</h3>
+                    </div>
                 </div>
             </div>
 
@@ -80,7 +101,10 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Wii-Mini-Console-Set-H.jpg/1280px-Wii-Mini-Console-Set-H.jpg"
                     alt="Wii Mini" style="width:100%">
                 <div class="container">
+                    <div class="row">
                     <h4><b>Wii Mini</b></h4>
+                    <h3 class="check-mark">✅</h3>
+                    </div>
                 </div>
             </div>
 
@@ -88,7 +112,10 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Wii_U_Console_and_Gamepad.png/800px-Wii_U_Console_and_Gamepad.png"
                     alt="Wii U" style="width:100%">
                 <div class="container">
+                    <div class="row">
                     <h4><b>Wii U</b></h4>
+                    <h3 class="check-mark">✅</h3>
+                    </div>
                 </div>
             </div>
 
@@ -96,7 +123,10 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/800px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
                     alt="Switch" style="width:100%">
                 <div class="container">
+                    <div class="row">
                     <h4><b>Switch</b></h4>
+                    <h3 class="check-mark">✅</h3>
+                    </div>
                 </div>
             </div>
 
@@ -104,7 +134,10 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/NCM_Konsole_mit_Controller.jpg/1920px-NCM_Konsole_mit_Controller.jpg"
                     alt="NES Classic" style="width:100%">
                 <div class="container">
+                    <div class="row">
                     <h4><b>NES Classic Edition</b></h4>
+                    <h3 class="check-mark">✅</h3>
+                    </div>
                 </div>
             </div>
 
@@ -112,7 +145,10 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Super_NES_Classic_Edition.jpg/1280px-Super_NES_Classic_Edition.jpg"
                     alt="SNES Classic" style="width:100%">
                 <div class="container">
+                    <div class="row">
                     <h4><b>SNES Classic Edition</b></h4>
+                    <h3 class="check-mark">✅</h3>
+                    </div>
                 </div>
             </div>
 

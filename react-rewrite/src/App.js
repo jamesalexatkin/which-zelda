@@ -2,13 +2,9 @@ import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Console from './Console.js';
+import handhelds from './data/handhelds.json';
 
 function App() {
-
-  const [handhelds, setHandhelds] = useState([
-    {name: "Game Boy", img_src: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"},
-    {name: "DS", img_src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Nintendo-DS-Fat-Blue.jpg/659px-Nintendo-DS-Fat-Blue.jpg"}
-  ]);
 
   return (
     <div className="App">
@@ -21,15 +17,13 @@ function App() {
 
         <h3>Home consoles</h3>
 
-        <h3>Handheld consoles</h3>
 
-        
+        <h3>Handheld consoles</h3>        
 
         <div class="row">
           {handhelds.map(handheld => (
             <Console name={handheld.name} img_src={handheld.img_src}/>
           ))}
-
         </div>
 
 

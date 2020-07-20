@@ -1,0 +1,28 @@
+{
+    "consoles": [
+        {
+            "name": "NES",
+            "owned": false,
+            "games": [
+                {
+                    "name": "LoZ",
+                    "detail": "Native"
+                },
+                {
+                    "name": "AoL",
+                    "detail": "Native"
+                }
+            ]
+        },
+        {
+            "name": "SNES",
+            "owned": false,
+            "games": [
+                {
+                    "name": "ALttP",
+                    "detail": "Native"
+                }
+            ]
+        }
+    ]
+}

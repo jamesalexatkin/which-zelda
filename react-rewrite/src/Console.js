@@ -12,7 +12,7 @@ function Console({name, imgSrc}) {
         <div className="card" onClick={handleClick}>
             <img className={owned ? "img" : "img-gray"} src={imgSrc}></img>
             <div className="container">
-                <h4><b>{name}</b></h4>
+                <h4>{owned ? name + " ✅" : name}</h4>
             </div>
         </div>
     )

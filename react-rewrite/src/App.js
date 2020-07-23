@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Console from './Console.js';
@@ -9,6 +9,9 @@ import main_series from './data/main_series.json';
 import spin_offs from './data/spin_offs.json';
 
 function App() {
+
+  // TODO: add list of systems
+  // TODO: add list of playable games
 
   return (
     <div className="App">
@@ -23,15 +26,15 @@ function App() {
 
         <div class="row">
           {home_consoles.map(home_console => (
-            <Console name={home_console.name} img_src={home_console.img_src}/>
+            <Console name={home_console.name} imgSrc={home_console.imgSrc} />
           ))}
         </div>
 
-        <h3>Handheld consoles</h3>        
+        <h3>Handheld consoles</h3>
 
         <div class="row">
           {handhelds.map(handheld => (
-            <Console name={handheld.name} img_src={handheld.img_src}/>
+            <Console name={handheld.name} imgSrc={handheld.imgSrc} />
           ))}
         </div>
 
@@ -46,7 +49,7 @@ function App() {
 
         <div class="row">
           {main_series.map(game => (
-            <Game name={game.name} img_src={game.img_src}/>
+            <Game name={game.name} imgSrc={game.imgSrc} />
           ))}
         </div>
 
@@ -54,7 +57,7 @@ function App() {
 
         <div class="row">
           {spin_offs.map(game => (
-            <Game name={game.name} img_src={game.img_src}/>
+            <Game name={game.name} imgSrc={game.imgSrc} />
           ))}
         </div>
 
@@ -63,6 +66,7 @@ function App() {
 
       <footer>
         <p>Game trademarks and copyrights are properties of their respective owners. Nintendo properties are trademarks of Nintendo. © 2020 Nintendo.</p>
+        <p>Images courtesy of <a href="https://commons.wikimedia.org/wiki/User:Evan-Amos">Evan Amos</a>. </p>
         <p class="footer-p">Website created by <a href="https://jamesatk.in">James Atkin</a>. © JAMES ATKIN 2020</p>
       </footer>
 

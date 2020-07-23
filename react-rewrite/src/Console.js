@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Console({name, img_src}) {
+function Console({name, imgSrc}) {
 
     function handleClick() {
         setOwned(!owned);
@@ -10,7 +10,7 @@ function Console({name, img_src}) {
 
     return (
         <div className="card" onClick={handleClick}>
-            <img className={owned ? "img" : "img-gray"} src={img_src}></img>
+            <img className={owned ? "img" : "img-gray"} src={imgSrc}></img>
             <div className="container">
                 <h4><b>{name}</b></h4>
             </div>

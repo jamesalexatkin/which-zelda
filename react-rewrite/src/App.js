@@ -61,6 +61,12 @@ function App() {
       </div>
 
 
+      <footer>
+        <p>Game trademarks and copyrights are properties of their respective owners. Nintendo properties are trademarks of Nintendo. © 2020 Nintendo.</p>
+        <p class="footer-p">Website created by <a href="https://jamesatk.in">James Atkin</a>. © JAMES ATKIN 2020</p>
+      </footer>
+
+
     </div>
   );
 }

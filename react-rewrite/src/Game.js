@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function Game({name, img_src}) {
+function Game({ name, img_src }) {
+
+    const [playable, setPlayable] = useState(false);
+
     return (
         <div className="card">
-            <img src={img_src}></img>
+            <img className={playable ? "img" : "img-gray"} src={img_src}></img>
             <div className="container">
                 <h4><b>{name}</b></h4>
             </div>

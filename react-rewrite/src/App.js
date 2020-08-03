@@ -10,8 +10,8 @@ import spin_offs from './data/spin_offs.json';
 
 function App() {
 
-  // TODO: add list of systems
-  // TODO: add list of playable games
+  var ownedSystems = [];
+  var playable_games = [];
 
   return (
     <div className="App">
@@ -26,7 +26,7 @@ function App() {
 
         <div class="row">
           {home_consoles.map(home_console => (
-            <Console name={home_console.name} imgSrc={home_console.imgSrc} />
+            <Console name={home_console.name} imgSrc={home_console.imgSrc} ownedSystems={ownedSystems}/>
           ))}
         </div>
 
@@ -67,7 +67,7 @@ function App() {
       <footer>
         <p>Game trademarks and copyrights are properties of their respective owners. Nintendo properties are trademarks of Nintendo. © 2020 Nintendo.</p>
         <p>Images courtesy of <a href="https://commons.wikimedia.org/wiki/User:Evan-Amos">Evan Amos</a>. </p>
-        <p class="footer-p">Website created by <a href="https://jamesatk.in">James Atkin</a>. © JAMES ATKIN 2020</p>
+        <p class="footer-p">Website created by <a href="https://jamesatk.in">James Atkin</a>. © JAMES ATKIN 2020. <a href="https://github.com/jamesalexatkin/which-zelda">View on Github</a></p>
       </footer>
 
 

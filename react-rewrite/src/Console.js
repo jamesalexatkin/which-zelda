@@ -1,9 +1,16 @@
 import React, { useState } from 'react';
 
-function Console({name, imgSrc}) {
+function Console({name, imgSrc, ownedSystems}) {
 
     function handleClick() {
         setOwned(!owned);
+
+        if (!(ownedSystems.includes(name))) {
+            ownedSystems.push(name);
+        } else {
+            const index = ownedSystems.indexOf(name);
+            ownedSystems.splice(index, 1);
+        }
     }
 
     const [owned, setOwned] = useState(false);

@@ -9,7 +9,7 @@
 
 <p align="center"><a href="https://jamesatk.in/which-zelda">https://jamesatk.in/which-zelda</a></p>
 
-Being one of Nintendo's most popular and successful franchises, the Zelda series has been entertaining gamers for over 30 years. In this time, many of the games have been ported, re-released or remade on successive platforms.
+Being one of Nintendo's most popular and successful franchises, the Zelda series has been entertaining players for over 30 years. In this time, many of the games have been ported, re-released or remade on successive platforms.
 
 I thought it would be a fun idea to see which games I could theoretically play based on the consoles I own.
 

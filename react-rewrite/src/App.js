@@ -10,8 +10,16 @@ import spin_offs from './data/spin_offs.json';
 
 function App() {
 
-  var ownedSystems = [];
-  var playable_games = [];
+  const [ownedSystems, setOwnedSystems] = useState([]);
+  var allGames = main_series.concat(spin_offs);
+
+  function getElByPropVal(arr, prop, val){
+    for (var i = 0, length = arr.length; i < length; i++) {
+        if (arr[i][prop] == val){
+            return arr[i];
+        }
+    }
+  }
 
   return (
     <div className="App">
@@ -26,7 +34,7 @@ function App() {
 
         <div class="row">
           {home_consoles.map(home_console => (
-            <Console name={home_console.name} imgSrc={home_console.imgSrc} ownedSystems={ownedSystems}/>
+            <Console name={home_console.name} imgSrc={home_console.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems}/>
           ))}
         </div>
 
@@ -34,7 +42,7 @@ function App() {
 
         <div class="row">
           {handhelds.map(handheld => (
-            <Console name={handheld.name} imgSrc={handheld.imgSrc} />
+            <Console name={handheld.name} imgSrc={handheld.imgSrc} ownedSystems={ownedSystems} />
           ))}
         </div>
 
@@ -49,17 +57,17 @@ function App() {
 
         <div class="row">
           {main_series.map(game => (
-            <Game name={game.name} imgSrc={game.imgSrc} />
+            <Game name={game.name} imgSrc={game.imgSrc} ownedSystems={ownedSystems} gameObj={getElByPropVal(allGames, "name", game.name)} />
           ))}
         </div>
 
         <h3>Spin-offs</h3>
 
-        <div class="row">
+        {/* <div class="row">
           {spin_offs.map(game => (
-            <Game name={game.name} imgSrc={game.imgSrc} />
+            <Game name={game.name} imgSrc={game.imgSrc} ownedSystems={ownedSystems} />
           ))}
-        </div>
+        </div> */}
 
       </div>
 

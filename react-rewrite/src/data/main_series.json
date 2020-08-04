@@ -1,10 +1,48 @@
 [
     {
         "name": "The Legend of Zelda",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png",
+        "playable": false,
+        "systemsPlayableOn": [
+            {
+                "name": "NES",
+                "detail": "Original release"
+            },
+            {
+                "name": "GameCube",
+                "detail": "Included in The Legend of Zelda: Collector's Edition"
+            },
+            {
+                "name": "Game Boy Advance",
+                "detail": "The Legend of Zelda (Classic NES Series)"
+            },
+            {
+                "name": "Wii",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "3DS",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "Wii U",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "Switch",
+                "detail": "Nintendo Switch Online NES Library"
+            }
+        ]
     },
     {
         "name": "The Adventure of Link",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "playable": false,
+        "systemsPlayableOn": [
+            {
+                "name": "NES",
+                "detail": "Original release"
+            }
+        ]
     }
 ]

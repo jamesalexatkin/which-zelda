@@ -1,6 +1,13 @@
 [
     {
         "name": "Link's Crossbow Training",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/11/Link%27s_Crossbow_Training.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/11/Link%27s_Crossbow_Training.jpg",
+        "playable": false,
+        "systemsPlayableOn": [
+            {
+                "name": "Wii",
+                "detail": "Original release"
+            }
+        ]
     }
 ]

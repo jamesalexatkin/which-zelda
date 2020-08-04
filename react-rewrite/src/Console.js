@@ -1,16 +1,23 @@
 import React, { useState } from 'react';
 
-function Console({name, imgSrc, ownedSystems}) {
+function Console({name, imgSrc, ownedSystems, setOwnedSystems}) {
 
     function handleClick() {
         setOwned(!owned);
 
+        // alert(ownedSystems.toString());
         if (!(ownedSystems.includes(name))) {
-            ownedSystems.push(name);
+            const copy = [...ownedSystems];
+            copy.push(name);
+            setOwnedSystems(copy);
         } else {
-            const index = ownedSystems.indexOf(name);
-            ownedSystems.splice(index, 1);
+            const copy = [...ownedSystems];
+            const index = copy.indexOf(name);
+            copy.splice(index, 1);
+            setOwnedSystems(copy);
         }
+
+        // TODO: setPlayableGames passed in as prop
     }
 
     const [owned, setOwned] = useState(false);

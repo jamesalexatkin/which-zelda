@@ -40,6 +40,316 @@
             {
                 "name": "NES",
                 "detail": "Original release"
+            },
+            {
+                "name": "GameCube",
+                "detail": "Included in The Legend of Zelda: Collector's Edition"
+            },
+            {
+                "name": "Game Boy Advance",
+                "detail": "Zelda II: The Adventure of Link (Classic NES Series)"
+            },
+            {
+                "name": "Wii",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "3DS",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "Wii U",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "Switch",
+                "detail": "Nintendo Switch Online NES Library"
+            }
+        ]
+    },
+    {
+        "name": "A Link to the Past",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "SNES",
+                "detail": "Original release"
+            },
+            {
+                "name": "Game Boy Advance",
+                "detail": "Ported as The Legend of Zelda: A Link to the Past & Four Swords"
+            },
+            {
+                "name": "Game Boy Advance",
+                "detail": "Zelda II: The Adventure of Link (Classic NES Series)"
+            },
+            {
+                "name": "Wii",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "Wii U",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "New 3DS",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "Switch",
+                "detail": "Nintendo Switch Online SNES Library"
+            }
+        ]
+    },
+    {
+        "name": "Link's Awakening",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "Game Boy",
+                "detail": "Original release"
+            },
+            {
+                "name": "Game Boy Color",
+                "detail": "Re-released as Link's Awakening DX"
+            },
+            {
+                "name": "3DS",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "Switch",
+                "detail": "Remastered as Link's Awakening"
+            }
+        ]
+    },
+    {
+        "name": "Ocarina of Time",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "N64",
+                "detail": "Original release"
+            },
+            {
+                "name": "GameCube",
+                "detail": "Included in The Legend of Zelda: Collector's Edition and re-released as Ocarina of Time Master Quest"
+            },
+            {
+                "name": "Wii",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "3DS",
+                "detail": "Remastered as Ocarina of Time 3D"
+            },
+            {
+                "name": "Wii U",
+                "detail": "Virtual Console"
+            }
+        ]
+    },
+    {
+        "name": "Majora's Mask",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "N64",
+                "detail": "Original release"
+            },
+            {
+                "name": "GameCube",
+                "detail": "Included in The Legend of Zelda: Collector's Edition"
+            },
+            {
+                "name": "Wii",
+                "detail": "Virtual Console"
+            },
+            {
+                "name": "3DS",
+                "detail": "Remastered as Majora's Mask 3D"
+            },
+            {
+                "name": "Wii U",
+                "detail": "Virtual Console"
+            }
+        ]
+    },
+    {
+        "name": "Oracle of Ages",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "Game Boy Color",
+                "detail": "Original release"
+            },
+            {
+                "name": "3DS",
+                "detail": "Virtual Console"
+            }
+        ]
+    },
+    {
+        "name": "Oracle of Seasons",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "Game Boy Color",
+                "detail": "Original release"
+            },
+            {
+                "name": "3DS",
+                "detail": "Virtual Console"
+            }
+        ]
+    },
+    {
+        "name": "Four Swords",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "Game Boy Advance",
+                "detail": "Original release w/port of A Link to the Past"
+            },
+            {
+                "name": "DSi",
+                "detail": "DSiWare download"
+            }
+        ]
+    },
+    {
+        "name": "Wind Waker",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "GameCube",
+                "detail": "Original release"
+            },
+            {
+                "name": "Wii U",
+                "detail": "Remastered as Wind Waker HD"
+            }
+        ]
+    },
+    {
+        "name": "Four Swords Adventures",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "GameCube",
+                "detail": "Original release"
+            }
+        ]
+    },
+    {
+        "name": "Minish Cap",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "Game Boy Advance",
+                "detail": "Original release"
+            },
+            {
+                "name": "3DS",
+                "detail": "Ambassador Program (pre-2011)"
+            },
+            {
+                "name": "Wii U",
+                "detail": "Virtual Console"
+            }
+        ]
+    },
+    {
+        "name": "Twilight Princess",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "GameCube",
+                "detail": "Original release"
+            },
+            {
+                "name": "Wii",
+                "detail": "Original release"
+            },
+            {
+                "name": "Wii U",
+                "detail": "Remastered as Twilight Princess HD"
+            }
+        ]
+    },
+    {
+        "name": "Phantom Hourglass",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "DS",
+                "detail": "Original release"
+            },
+            {
+                "name": "Wii U",
+                "detail": "Virtual Console"
+            }
+        ]
+    },
+    {
+        "name": "Spirit Tracks",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "DS",
+                "detail": "Original release"
+            },
+            {
+                "name": "Wii U",
+                "detail": "Virtual Console"
+            }
+        ]
+    },
+    {
+        "name": "Skyward Sword",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "Wii",
+                "detail": "Original release"
+            },
+            {
+                "name": "Wii U",
+                "detail": "Virtual Console"
+            }
+        ]
+    },
+    {
+        "name": "A Link Between Worlds",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "3DS",
+                "detail": "Original release"
+            }
+        ]
+    },
+    {
+        "name": "Tri Force Heroes",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "3DS",
+                "detail": "Original release"
+            }
+        ]
+    },
+    {
+        "name": "Breath of the Wild",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "systemsPlayableOn": [
+            {
+                "name": "Wii U",
+                "detail": "Original release"
+            },
+            {
+                "name": "Switch",
+                "detail": "Original release"
             }
         ]
     }

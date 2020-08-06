@@ -68,19 +68,17 @@ function App() {
           const playableSystem = systemsPlayableOn[j];
           if (curSystem == playableSystem.name) {
             const consoleDetail = "• " + playableSystem.name + ": " + playableSystem.detail + "\n";
-            console.log(consoleDetail);
             detail += consoleDetail;
             break;
           }
         }
 
         // Case 2. - backwards compat
-        console.log(systemObj.backwardsCompat);
         if (systemObj.backwardsCompat) {
 
           for (var j = 0; j < systemsPlayableOn.length; j++) {
             const playableSystem = systemsPlayableOn[j];
-            if (curSystem == playableSystem.name) {
+            if (systemObj.bcWith == playableSystem.name) {
               const bcObj = getElByPropVal(systemsPlayableOn, "name", systemObj.bcWith);
               const bcDetail = bcObj.detail;
               const consoleDetail = "• " + systemObj.name + " (" + systemObj.bcAlias + " B/C): " + bcDetail + "\n";

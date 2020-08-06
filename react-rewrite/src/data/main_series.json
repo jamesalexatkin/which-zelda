@@ -1,7 +1,7 @@
 [
     {
         "name": "The Legend of Zelda",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png",
+        "imgSrc": "/img/TLoZ.png",
         "systemsPlayableOn": [
             {
                 "name": "NES",
@@ -35,7 +35,7 @@
     },
     {
         "name": "The Adventure of Link",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/TAoL.png",
         "systemsPlayableOn": [
             {
                 "name": "NES",
@@ -69,7 +69,7 @@
     },
     {
         "name": "A Link to the Past",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/ALttP.png",
         "systemsPlayableOn": [
             {
                 "name": "SNES",
@@ -103,7 +103,7 @@
     },
     {
         "name": "Link's Awakening",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/LA.png",
         "systemsPlayableOn": [
             {
                 "name": "Game Boy",
@@ -125,7 +125,7 @@
     },
     {
         "name": "Ocarina of Time",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/OoT.png",
         "systemsPlayableOn": [
             {
                 "name": "N64",
@@ -151,7 +151,7 @@
     },
     {
         "name": "Majora's Mask",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/MM.png",
         "systemsPlayableOn": [
             {
                 "name": "N64",
@@ -177,7 +177,7 @@
     },
     {
         "name": "Oracle of Ages",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/OoA.png",
         "systemsPlayableOn": [
             {
                 "name": "Game Boy Color",
@@ -191,7 +191,7 @@
     },
     {
         "name": "Oracle of Seasons",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/OoS.png",
         "systemsPlayableOn": [
             {
                 "name": "Game Boy Color",
@@ -205,7 +205,7 @@
     },
     {
         "name": "Four Swords",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/FS.png",
         "systemsPlayableOn": [
             {
                 "name": "Game Boy Advance",
@@ -219,7 +219,7 @@
     },
     {
         "name": "Wind Waker",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/WW.jpg",
         "systemsPlayableOn": [
             {
                 "name": "GameCube",
@@ -233,7 +233,7 @@
     },
     {
         "name": "Four Swords Adventures",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/FSA.png",
         "systemsPlayableOn": [
             {
                 "name": "GameCube",
@@ -243,7 +243,7 @@
     },
     {
         "name": "Minish Cap",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/MC.jpg",
         "systemsPlayableOn": [
             {
                 "name": "Game Boy Advance",
@@ -261,7 +261,7 @@
     },
     {
         "name": "Twilight Princess",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/TP.jpg",
         "systemsPlayableOn": [
             {
                 "name": "GameCube",
@@ -279,7 +279,7 @@
     },
     {
         "name": "Phantom Hourglass",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/PH.jpg",
         "systemsPlayableOn": [
             {
                 "name": "DS",
@@ -293,7 +293,7 @@
     },
     {
         "name": "Spirit Tracks",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/ST.jpg",
         "systemsPlayableOn": [
             {
                 "name": "DS",
@@ -307,7 +307,7 @@
     },
     {
         "name": "Skyward Sword",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/SS.jpg",
         "systemsPlayableOn": [
             {
                 "name": "Wii",
@@ -321,7 +321,7 @@
     },
     {
         "name": "A Link Between Worlds",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/ALBW.jpg",
         "systemsPlayableOn": [
             {
                 "name": "3DS",
@@ -331,7 +331,7 @@
     },
     {
         "name": "Tri Force Heroes",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/TFH.jpg",
         "systemsPlayableOn": [
             {
                 "name": "3DS",
@@ -341,7 +341,7 @@
     },
     {
         "name": "Breath of the Wild",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+        "imgSrc": "/img/BotW.jpg",
         "systemsPlayableOn": [
             {
                 "name": "Wii U",

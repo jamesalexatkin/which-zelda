@@ -30,7 +30,10 @@
     },
     {
         "name": "Wii U",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nintendo-Wii-U-Console-FL.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nintendo-Wii-U-Console-FL.jpg",
+        "backwardsCompat": true,
+        "bcWith": "Wii",
+        "bcAlias": "Wii"
     },
     {
         "name": "Switch",

@@ -5,62 +5,179 @@
     },
     {
         "name": "Game Boy Color",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo-Game-Boy-Color-FL.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo-Game-Boy-Color-FL.jpg",
+        "backwardsCompat": true,
+        "bcWith": "Game Boy",
+        "bcAlias": "GB"
     },
     {
         "name": "Game Boy Advance",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Nintendo-Game-Boy-Advance-Purple-FL.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Nintendo-Game-Boy-Advance-Purple-FL.jpg",
+        "backwardsCompat": true,
+        "bcWith": [
+            "Game Boy",
+            "Game Boy Color"
+        ],
+        "bcAlias": [
+            "GB",
+            "GBC"
+        ]
     },
     {
         "name": "Game Boy Advance SP",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Game-Boy-Advance-SP-Mk1-Blue.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Game-Boy-Advance-SP-Mk1-Blue.jpg",
+        "backwardsCompat": true,
+        "bcWith": [
+            "Game Boy",
+            "Game Boy Color"
+        ],
+        "bcAlias": [
+            "GB",
+            "GBC"
+        ],
+        "isVariant": true,
+        "variantOf": "Game Boy Advance"
     },
     {
         "name": "DS",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Nintendo-DS-Fat-Blue.jpg/659px-Nintendo-DS-Fat-Blue.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Nintendo-DS-Fat-Blue.jpg/659px-Nintendo-DS-Fat-Blue.jpg",
+        "backwardsCompat": true,
+        "bcWith": [
+            "Game Boy Advance"
+        ],
+        "bcAlias": [
+            "GBA"
+        ]
     },
     {
         "name": "Game Boy Micro",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Game-Boy-Micro.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Game-Boy-Micro.jpg",
+        "isVariant": true,
+        "variantOf": "Game Boy Advance"
     },
     {
         "name": "DS Lite",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Nintendo-DS-Lite-Black-Open.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Nintendo-DS-Lite-Black-Open.jpg",
+        "backwardsCompat": true,
+        "bcWith": [
+            "Game Boy Advance"
+        ],
+        "bcAlias": [
+            "GBA"
+        ],
+        "isVariant": true,
+        "variantOf": "DS"
     },
     {
         "name": "DSi",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nintendo-DSi-Bl-Open.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nintendo-DSi-Bl-Open.jpg",
+        "isVariant": true,
+        "variantOf": [
+            "DS",
+            "DSi"
+        ]
     },
     {
         "name": "DSi XL",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/5/55/Nintendo-DSi-XL-Burg.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/5/55/Nintendo-DSi-XL-Burg.jpg",
+        "isVariant": true,
+        "variantOf": [
+            "DS",
+            "DSi"
+        ]
     },
     {
         "name": "3DS",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Nintendo-3DS-AquaOpen.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Nintendo-3DS-AquaOpen.jpg",
+        "backwardsCompat": true,
+        "bcWith": [
+            "DS",
+            "DSi"
+        ],
+        "bcAlias": [
+            "DS",
+            "DSi"
+        ]
     },
     {
         "name": "3DS XL",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/5/55/Nintendo-DSi-XL-Burg.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/5/55/Nintendo-DSi-XL-Burg.jpg",
+        "backwardsCompat": true,
+        "bcWith": [
+            "DS",
+            "DSi"
+        ],
+        "bcAlias": [
+            "DS",
+            "DSi"
+        ],
+        "isVariant": true,
+        "variantOf": "3DS"
     },
     {
         "name": "2DS",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nintendo-2DS-angle.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nintendo-2DS-angle.jpg",
+        "backwardsCompat": true,
+        "bcWith": [
+            "DS",
+            "DSi"
+        ],
+        "bcAlias": [
+            "DS",
+            "DSi"
+        ],
+        "isVariant": true,
+        "variantOf": "3DS"
     },
     {
         "name": "New 3DS",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg",
+        "backwardsCompat": true,
+        "bcWith": [
+            "DS",
+            "DSi"
+        ],
+        "bcAlias": [
+            "DS",
+            "DSi"
+        ],
+        "isVariant": true,
+        "variantOf": "3DS"
     },
     {
         "name": "New 3DS XL",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg",
+        "backwardsCompat": true,
+        "bcWith": [
+            "DS",
+            "DSi"
+        ],
+        "bcAlias": [
+            "DS",
+            "DSi"
+        ],
+        "isVariant": true,
+        "variantOf": "3DS"
     },
     {
         "name": "New 2DS XL",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg",
+        "backwardsCompat": true,
+        "bcWith": [
+            "DS",
+            "DSi"
+        ],
+        "bcAlias": [
+            "DS",
+            "DSi"
+        ],
+        "isVariant": true,
+        "variantOf": "3DS"
     },
     {
         "name": "Switch Lite",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
+        "imgSrc": "https://s1.thcdn.com/productimg/1600/1600/12258504-1704698675076299.jpg",
+        "isVariant": true,
+        "variantOf": "Switch"
     }
 ]

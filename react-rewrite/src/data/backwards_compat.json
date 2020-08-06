@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Wii",
+        "bc_with": "GameCube",
+        "alias": "GCN"
+    },
+    {
+        "name": "Wii U",
+        "bc_with": "Wii",
+        "alias": "Wii"
+    }
+]

@@ -8,10 +8,12 @@ import home_consoles from './data/home_consoles.json';
 import main_series from './data/main_series.json';
 import spin_offs from './data/spin_offs.json';
 
+
 function App() {
 
   const [ownedSystems, setOwnedSystems] = useState([]);
   var allGames = main_series.concat(spin_offs);
+  var allSystems = home_consoles.concat(handhelds);
 
   function getElByPropVal(arr, prop, val) {
 
@@ -49,9 +51,19 @@ function App() {
     for (var i = 0; i < systemsPlayableOn.length; i++) {
 
       const curSystem = systemsPlayableOn[i];
-      if (ownedSystems.includes(curSystem.name)) {        
-        const consoleDetail = curSystem.name + ": " + curSystem.detail + "\n";
+      if (ownedSystems.includes(curSystem.name)) {
+        const consoleDetail = "• " + curSystem.name + ": " + curSystem.detail + "\n";
         detail += consoleDetail;
+
+        // TODO: backwards compatibility logic
+        var systemObj = getElByPropVal(allSystems, "name", curSystem.name);
+        console.log(systemObj);
+        if (systemObj.backwardsCompat === true) {
+          const bcObj = getElByPropVal(systemsPlayableOn, "name", systemObj.bcWith);
+          const bcDetail = bcObj.detail;
+          const consoleDetail = "• " + systemObj.name + "(" + systemObj.bcAlias + " B/C): " + bcDetail + "\n";
+          detail += consoleDetail;
+        }
       }
     }
 
@@ -71,7 +83,7 @@ function App() {
 
         <div className="row">
           {home_consoles.map(home_console => (
-            <Console name={home_console.name} imgSrc={home_console.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems}/>
+            <Console name={home_console.name} imgSrc={home_console.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems} />
           ))}
         </div>
 
@@ -79,7 +91,7 @@ function App() {
 
         <div className="row">
           {handhelds.map(handheld => (
-            <Console name={handheld.name} imgSrc={handheld.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems}/>
+            <Console name={handheld.name} imgSrc={handheld.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems} />
           ))}
         </div>
 
@@ -94,7 +106,7 @@ function App() {
 
         <div class="row">
           {main_series.map(game => (
-            <Game name={game.name} imgSrc={game.imgSrc} playable={isPlayable(game.name, allGames, ownedSystems)} detail={getGameDetail(game.name, allGames, ownedSystems)}/>
+            <Game name={game.name} imgSrc={game.imgSrc} playable={isPlayable(game.name, allGames, ownedSystems)} detail={getGameDetail(game.name, allGames, ownedSystems)} />
           ))}
         </div>
 

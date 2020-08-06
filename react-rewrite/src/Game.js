@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 
-function Game({ name, imgSrc, ownedSystems, gameObj }) {
+function Game({ name, imgSrc, ownedSystems, gameObj, playable, detail }) {
 
-  const [playable, setPlayable] = useState(false);
+  // const [playable, setPlayable] = useState(false);
   var consoleDetails = "Playable on: \n";
+  // alert(playable);
 
   // function setState() {
     // alert("blah");
@@ -24,7 +25,8 @@ function Game({ name, imgSrc, ownedSystems, gameObj }) {
     <div className="card">
       <img className={playable ? "img" : "img-gray"} src={imgSrc}></img>
       <div className="overlay">
-        <p>{consoleDetails}</p>
+        {/* whiteSpace property renders \n from detail properly in HTML */}
+        <div style={{whiteSpace: "pre-line"}}>{detail}</div>
       </div>
       <div className="container">
         <h4><b>{name}</b></h4>

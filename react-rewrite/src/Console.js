@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Console({name, imgSrc, ownedSystems, setOwnedSystems}) {
+function Console({name, imgSrc, ownedSystems, setOwnedSystems, computePlayableGames}) {
 
     function handleClick() {
         setOwned(!owned);
@@ -18,6 +18,7 @@ function Console({name, imgSrc, ownedSystems, setOwnedSystems}) {
         }
 
         // TODO: setPlayableGames passed in as prop
+        computePlayableGames();
     }
 
     const [owned, setOwned] = useState(false);

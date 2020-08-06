@@ -13,12 +13,54 @@ function App() {
   const [ownedSystems, setOwnedSystems] = useState([]);
   var allGames = main_series.concat(spin_offs);
 
-  function getElByPropVal(arr, prop, val){
+  function getElByPropVal(arr, prop, val) {
+    // alert(arr);
+
     for (var i = 0, length = arr.length; i < length; i++) {
-        if (arr[i][prop] == val){
-            return arr[i];
-        }
+      if (arr[i][prop] == val) {
+        return arr[i];
+      }
     }
+  }
+
+  function computePlayableGames() {
+    
+  }
+
+  function isPlayable(name, allGames, ownedSystems) {
+    var gameObj = getElByPropVal(allGames, "name", name);
+
+    var playable = false;
+
+    const systemsPlayableOn = gameObj.systemsPlayableOn;
+    for (var i = 0; i < systemsPlayableOn.length; i++) {
+      if (ownedSystems.includes(systemsPlayableOn[i].name)) {
+        playable = true;
+        break;
+      }
+    }
+
+    console.log(name + playable);
+
+    return playable;
+  }
+
+  function getGameDetail(name, allGames, ownedSystems) {
+    var gameObj = getElByPropVal(allGames, "name", name);
+
+    var detail = "Playable on:\n";
+
+    const systemsPlayableOn = gameObj.systemsPlayableOn;
+    for (var i = 0; i < systemsPlayableOn.length; i++) {
+
+      const curSystem = systemsPlayableOn[i];
+      if (ownedSystems.includes(curSystem.name)) {        
+        const consoleDetail = curSystem.name + ": " + curSystem.detail + "\n";
+        detail += consoleDetail;
+      }
+    }
+
+    return detail;
   }
 
   return (
@@ -32,15 +74,15 @@ function App() {
 
         <h3>Home consoles</h3>
 
-        <div class="row">
+        <div className="row">
           {home_consoles.map(home_console => (
-            <Console name={home_console.name} imgSrc={home_console.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems}/>
+            <Console name={home_console.name} imgSrc={home_console.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems} computePlayableGames={computePlayableGames} />
           ))}
         </div>
 
         <h3>Handheld consoles</h3>
 
-        <div class="row">
+        <div className="row">
           {handhelds.map(handheld => (
             <Console name={handheld.name} imgSrc={handheld.imgSrc} ownedSystems={ownedSystems} />
           ))}
@@ -57,7 +99,7 @@ function App() {
 
         <div class="row">
           {main_series.map(game => (
-            <Game name={game.name} imgSrc={game.imgSrc} ownedSystems={ownedSystems} gameObj={getElByPropVal(allGames, "name", game.name)} />
+            <Game name={game.name} imgSrc={game.imgSrc} ownedSystems={ownedSystems} gameObj={getElByPropVal(allGames, "name", game.name)} playable={isPlayable(game.name, allGames, ownedSystems)} detail={getGameDetail(game.name, allGames, ownedSystems)}/>
           ))}
         </div>
 

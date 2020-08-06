@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 
-function Console({name, imgSrc, ownedSystems, setOwnedSystems, computePlayableGames}) {
+function Console({name, imgSrc, ownedSystems, setOwnedSystems}) {
 
     function handleClick() {
         setOwned(!owned);
 
-        // alert(ownedSystems.toString());
         if (!(ownedSystems.includes(name))) {
             const copy = [...ownedSystems];
             copy.push(name);
@@ -16,9 +15,6 @@ function Console({name, imgSrc, ownedSystems, setOwnedSystems, computePlayableGa
             copy.splice(index, 1);
             setOwnedSystems(copy);
         }
-
-        // TODO: setPlayableGames passed in as prop
-        computePlayableGames();
     }
 
     const [owned, setOwned] = useState(false);

@@ -1,25 +1,6 @@
 import React, { useState } from 'react';
 
-function Game({ name, imgSrc, ownedSystems, gameObj, playable, detail }) {
-
-  // const [playable, setPlayable] = useState(false);
-  var consoleDetails = "Playable on: \n";
-  // alert(playable);
-
-  // function setState() {
-    // alert("blah");
-    // for (const console of gameObj.systemsPlayableOn) {
-    //   if (ownedSystems.includes(console.name)) {
-    //     setPlayable(true);
-    //   }
-    // }
-
-    if (ownedSystems.includes(gameObj.systemsPlayableOn[0].name)) {
-      // setPlayable(true);
-    }
-
-    // alert(playable);
-  // }
+function Game({ name, imgSrc, playable, detail }) {
 
   return (
     <div className="card">

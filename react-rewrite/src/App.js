@@ -14,17 +14,12 @@ function App() {
   var allGames = main_series.concat(spin_offs);
 
   function getElByPropVal(arr, prop, val) {
-    // alert(arr);
 
     for (var i = 0, length = arr.length; i < length; i++) {
       if (arr[i][prop] == val) {
         return arr[i];
       }
     }
-  }
-
-  function computePlayableGames() {
-    
   }
 
   function isPlayable(name, allGames, ownedSystems) {
@@ -76,7 +71,7 @@ function App() {
 
         <div className="row">
           {home_consoles.map(home_console => (
-            <Console name={home_console.name} imgSrc={home_console.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems} computePlayableGames={computePlayableGames} />
+            <Console name={home_console.name} imgSrc={home_console.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems}/>
           ))}
         </div>
 
@@ -84,7 +79,7 @@ function App() {
 
         <div className="row">
           {handhelds.map(handheld => (
-            <Console name={handheld.name} imgSrc={handheld.imgSrc} ownedSystems={ownedSystems} />
+            <Console name={handheld.name} imgSrc={handheld.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems}/>
           ))}
         </div>
 
@@ -99,7 +94,7 @@ function App() {
 
         <div class="row">
           {main_series.map(game => (
-            <Game name={game.name} imgSrc={game.imgSrc} ownedSystems={ownedSystems} gameObj={getElByPropVal(allGames, "name", game.name)} playable={isPlayable(game.name, allGames, ownedSystems)} detail={getGameDetail(game.name, allGames, ownedSystems)}/>
+            <Game name={game.name} imgSrc={game.imgSrc} playable={isPlayable(game.name, allGames, ownedSystems)} detail={getGameDetail(game.name, allGames, ownedSystems)}/>
           ))}
         </div>
 

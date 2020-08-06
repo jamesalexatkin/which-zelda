@@ -24,7 +24,9 @@
     },
     {
         "name": "Wii Mini",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Wii-Mini-Console-Set-H.jpg/800px-Wii-Mini-Console-Set-H.jpg"
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Wii-Mini-Console-Set-H.jpg/800px-Wii-Mini-Console-Set-H.jpg",
+        "isVariant": true,
+        "variantOf": "Wii"
     },
     {
         "name": "Wii U",

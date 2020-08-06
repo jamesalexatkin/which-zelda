@@ -7,6 +7,7 @@ import handhelds from './data/handhelds.json';
 import home_consoles from './data/home_consoles.json';
 import main_series from './data/main_series.json';
 import spin_offs from './data/spin_offs.json';
+import ordered_systems from './data/ordered_systems.json'
 
 
 function App() {
@@ -37,8 +38,6 @@ function App() {
       }
     }
 
-    console.log(name + playable);
-
     return playable;
   }
 
@@ -48,24 +47,100 @@ function App() {
     var detail = "Playable on:\n";
 
     const systemsPlayableOn = gameObj.systemsPlayableOn;
-    for (var i = 0; i < systemsPlayableOn.length; i++) {
 
-      const curSystem = systemsPlayableOn[i];
-      if (ownedSystems.includes(curSystem.name)) {
-        const consoleDetail = "• " + curSystem.name + ": " + curSystem.detail + "\n";
-        detail += consoleDetail;
+    // Make sure we consider all systems in order
+    for (var i = 0; i < ordered_systems.length; i++) {
 
-        // TODO: backwards compatibility logic
-        var systemObj = getElByPropVal(allSystems, "name", curSystem.name);
-        console.log(systemObj);
-        if (systemObj.backwardsCompat === true) {
-          const bcObj = getElByPropVal(systemsPlayableOn, "name", systemObj.bcWith);
-          const bcDetail = bcObj.detail;
-          const consoleDetail = "• " + systemObj.name + "(" + systemObj.bcAlias + " B/C): " + bcDetail + "\n";
-          detail += consoleDetail;
+      const curSystem = ordered_systems[i];
+      
+      // Check that we own this system, otherwise nothing else matters
+      if (ownedSystems.includes(curSystem)) {
+
+        var systemObj = getElByPropVal(allSystems, "name", curSystem);
+
+        // 3 cases:
+        // 1. Game is playable in some fashion as it was released for that system
+        // 2. Game is playable as the console is a variant of a console for which 1. is true
+        // 3. Game is playable as the console provides backwards compatibility for a console for which 1. is true
+
+        // Case 1. - natively playable
+        for (var j = 0; j < systemsPlayableOn.length; j++) {
+          const playableSystem = systemsPlayableOn[j];
+          if (curSystem == playableSystem.name) {
+            const consoleDetail = "• " + playableSystem.name + ": " + playableSystem.detail + "\n";
+            console.log(consoleDetail);
+            detail += consoleDetail;
+            break;
+          }
+        }
+
+        // Case 2. - backwards compat
+        console.log(systemObj.backwardsCompat);
+        if (systemObj.backwardsCompat) {
+
+          for (var j = 0; j < systemsPlayableOn.length; j++) {
+            const playableSystem = systemsPlayableOn[j];
+            if (curSystem == playableSystem.name) {
+              const bcObj = getElByPropVal(systemsPlayableOn, "name", systemObj.bcWith);
+              const bcDetail = bcObj.detail;
+              const consoleDetail = "• " + systemObj.name + " (" + systemObj.bcAlias + " B/C): " + bcDetail + "\n";
+              detail += consoleDetail;
+            }
+          }
+        }
+
+        // Case 3. - system variant
+        if (systemObj.isVariant === true) {
+          for (var j = 0; j < systemsPlayableOn.length; j++) {
+            const playableSystem = systemsPlayableOn[j];
+            if (systemObj.variantOf == playableSystem.name) {
+              console.log()
+              const variantObj = getElByPropVal(systemsPlayableOn, "name", systemObj.variantOf);
+              const variantDetail = variantObj.detail;
+              const consoleDetail = "• " + systemObj.name + ": " + variantDetail + "\n";
+              detail += consoleDetail;
+            }
+          }
         }
       }
     }
+
+
+
+    // TODO: delete this
+
+    // for (var i = 0; i < systemsPlayableOn.length; i++) {
+
+    //   const curSystem = systemsPlayableOn[i];
+    //   var systemObj = getElByPropVal(allSystems, "name", curSystem.name);
+
+    //   if (ownedSystems.includes(curSystem.name)) {
+    //     const consoleDetail = "• " + curSystem.name + ": " + curSystem.detail + "\n";
+    //     detail += consoleDetail;
+
+    //     if (systemObj.backwardsCompat === true) {
+    //       const bcObj = getElByPropVal(systemsPlayableOn, "name", systemObj.bcWith);
+    //       const bcDetail = bcObj.detail;
+    //       const consoleDetail = "• " + systemObj.name + "(" + systemObj.bcAlias + " B/C): " + bcDetail + "\n";
+    //       detail += consoleDetail;
+    //     }
+    //   } else {
+    //     console.log(JSON.stringify(systemObj));
+    //     systemObj = getElByPropVal(allSystems, "name", curSystem.name);
+    //     // if (systemObj.variant === true) {
+    //     //   alert(systemObj.variantOf);
+    //     //   const variantOfObj = getElByPropVal(systemsPlayableOn, "name", systemObj.variantOf);
+    //     //   const variantOfDetail = variantOfObj.detail;
+    //     //   const consoleDetail = "• " + systemObj.name + variantOfDetail + "\n";
+    //     //   detail += consoleDetail;
+    //     // }
+    //   }
+
+
+
+
+
+    // }
 
     return detail;
   }

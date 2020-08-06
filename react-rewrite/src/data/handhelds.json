@@ -4,7 +4,63 @@
         "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
     },
     {
+        "name": "Game Boy Color",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo-Game-Boy-Color-FL.jpg"
+    },
+    {
+        "name": "Game Boy Advance",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Nintendo-Game-Boy-Advance-Purple-FL.jpg"
+    },
+    {
+        "name": "Game Boy Advance SP",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Game-Boy-Advance-SP-Mk1-Blue.jpg"
+    },
+    {
         "name": "DS",
         "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Nintendo-DS-Fat-Blue.jpg/659px-Nintendo-DS-Fat-Blue.jpg"
+    },
+    {
+        "name": "Game Boy Micro",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Game-Boy-Micro.jpg"
+    },
+    {
+        "name": "DS Lite",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Nintendo-DS-Lite-Black-Open.jpg"
+    },
+    {
+        "name": "DSi",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nintendo-DSi-Bl-Open.jpg"
+    },
+    {
+        "name": "DSi XL",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/5/55/Nintendo-DSi-XL-Burg.jpg"
+    },
+    {
+        "name": "3DS",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Nintendo-3DS-AquaOpen.jpg"
+    },
+    {
+        "name": "3DS XL",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/5/55/Nintendo-DSi-XL-Burg.jpg"
+    },
+    {
+        "name": "2DS",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nintendo-2DS-angle.jpg"
+    },
+    {
+        "name": "New 3DS",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
+    },
+    {
+        "name": "New 3DS XL",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
+    },
+    {
+        "name": "New 2DS XL",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
+    },
+    {
+        "name": "Switch Lite",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
     }
 ]

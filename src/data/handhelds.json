@@ -7,8 +7,8 @@
         "name": "Game Boy Color",
         "imgSrc": "/img/consoles/GBC.jpg",
         "backwardsCompat": true,
-        "bcWith": "Game Boy",
-        "bcAlias": "GB"
+        "bcWith": ["Game Boy"],
+        "bcAlias": ["GB"]
     },
     {
         "name": "Game Boy Advance",

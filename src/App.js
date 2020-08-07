@@ -62,13 +62,20 @@ function App() {
 
           for (var j = 0; j < systemsPlayableOn.length; j++) {
             const playableSystem = systemsPlayableOn[j];
-            if (systemObj.bcWith == playableSystem.name) {
-              playable = true;
-              break;
-            }
-          }
-        }
 
+            const bcSystems = systemObj.bcWith;
+
+            if (bcSystems.length > 0) {
+              for (var k = 0; k < bcSystems.length; k++) {
+                const bcSystemObj = bcSystems[k];
+
+                if (bcSystemObj == playableSystem.name) {
+                  playable = true;
+                }
+              }
+            }
+        }
+      }
         // Case 3. - system variant
         if (systemObj.isVariant === true) {
           for (var j = 0; j < systemsPlayableOn.length; j++) {
@@ -121,12 +128,22 @@ function App() {
 
           for (var j = 0; j < systemsPlayableOn.length; j++) {
             const playableSystem = systemsPlayableOn[j];
-            if (systemObj.bcWith == playableSystem.name) {
-              const bcObj = getElByPropVal(systemsPlayableOn, "name", systemObj.bcWith);
-              const bcDetail = bcObj.detail;
-              const consoleDetail = "• " + systemObj.name + " (" + systemObj.bcAlias + " B/C): " + bcDetail + "\n";
-              detail += consoleDetail;
+
+            const bcSystems = systemObj.bcWith;
+
+            if (bcSystems.length > 0) {
+              for (var k = 0; k < bcSystems.length; k++) {
+                const bcSystemObj = bcSystems[k];
+
+                if (bcSystemObj == playableSystem.name) {
+                  const bcObj = getElByPropVal(systemsPlayableOn, "name", bcSystemObj);
+                  const bcDetail = bcObj.detail;
+                  const consoleDetail = "• " + systemObj.name + " (" + systemObj.bcAlias[k] + " B/C): " + bcDetail + "\n";
+                  detail += consoleDetail;
+                }
+              }
             }
+            
           }
         }
 
@@ -145,43 +162,6 @@ function App() {
         }
       }
     }
-
-
-
-    // TODO: delete this
-
-    // for (var i = 0; i < systemsPlayableOn.length; i++) {
-
-    //   const curSystem = systemsPlayableOn[i];
-    //   var systemObj = getElByPropVal(allSystems, "name", curSystem.name);
-
-    //   if (ownedSystems.includes(curSystem.name)) {
-    //     const consoleDetail = "• " + curSystem.name + ": " + curSystem.detail + "\n";
-    //     detail += consoleDetail;
-
-    //     if (systemObj.backwardsCompat === true) {
-    //       const bcObj = getElByPropVal(systemsPlayableOn, "name", systemObj.bcWith);
-    //       const bcDetail = bcObj.detail;
-    //       const consoleDetail = "• " + systemObj.name + "(" + systemObj.bcAlias + " B/C): " + bcDetail + "\n";
-    //       detail += consoleDetail;
-    //     }
-    //   } else {
-    //     console.log(JSON.stringify(systemObj));
-    //     systemObj = getElByPropVal(allSystems, "name", curSystem.name);
-    //     // if (systemObj.variant === true) {
-    //     //   alert(systemObj.variantOf);
-    //     //   const variantOfObj = getElByPropVal(systemsPlayableOn, "name", systemObj.variantOf);
-    //     //   const variantOfDetail = variantOfObj.detail;
-    //     //   const consoleDetail = "• " + systemObj.name + variantOfDetail + "\n";
-    //     //   detail += consoleDetail;
-    //     // }
-    //   }
-
-
-
-
-
-    // }
 
     return detail;
   }
@@ -211,8 +191,6 @@ function App() {
             <Console name={handheld.name} imgSrc={process.env.PUBLIC_URL + handheld.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems} />
           ))}
         </div>
-
-
       </div>
 
 

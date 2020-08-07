@@ -17,7 +17,7 @@ function App() {
 
   const [ownedSystems, setOwnedSystems] = useState([]);
   var allGames = main_series.concat(spin_offs);
-  var allSystems = home_consoles.concat(handhelds);  
+  var allSystems = home_consoles.concat(handhelds);
 
   function getElByPropVal(arr, prop, val) {
 
@@ -34,10 +34,50 @@ function App() {
     var playable = false;
 
     const systemsPlayableOn = gameObj.systemsPlayableOn;
-    for (var i = 0; i < systemsPlayableOn.length; i++) {
-      if (ownedSystems.includes(systemsPlayableOn[i].name)) {
-        playable = true;
-        break;
+
+    // Make sure we consider all systems in order
+    for (var i = 0; i < ordered_systems.length; i++) {
+      const curSystem = ordered_systems[i];
+
+      // Check that we own this system, otherwise nothing else matters
+      if (ownedSystems.includes(curSystem)) {
+        var systemObj = getElByPropVal(allSystems, "name", curSystem);
+
+        // 3 cases:
+        // 1. Game is playable in some fashion as it was released for that system
+        // 2. Game is playable as the console is a variant of a console for which 1. is true
+        // 3. Game is playable as the console provides backwards compatibility for a console for which 1. is true
+
+        // Case 1. - natively playable
+        for (var j = 0; j < systemsPlayableOn.length; j++) {
+          const playableSystem = systemsPlayableOn[j];
+          if (curSystem == playableSystem.name) {
+            playable = true;
+            break;
+          }
+        }
+
+        // Case 2. - backwards compat
+        if (systemObj.backwardsCompat) {
+
+          for (var j = 0; j < systemsPlayableOn.length; j++) {
+            const playableSystem = systemsPlayableOn[j];
+            if (systemObj.bcWith == playableSystem.name) {
+              playable = true;
+              break;
+            }
+          }
+        }
+
+        // Case 3. - system variant
+        if (systemObj.isVariant === true) {
+          for (var j = 0; j < systemsPlayableOn.length; j++) {
+            const playableSystem = systemsPlayableOn[j];
+            if (systemObj.variantOf == playableSystem.name) {
+              playable = true; break;
+            }
+          }
+        }
       }
     }
 
@@ -55,7 +95,7 @@ function App() {
     for (var i = 0; i < ordered_systems.length; i++) {
 
       const curSystem = ordered_systems[i];
-      
+
       // Check that we own this system, otherwise nothing else matters
       if (ownedSystems.includes(curSystem)) {
 

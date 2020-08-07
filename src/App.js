@@ -200,7 +200,7 @@ function App() {
 
         <div className="row">
           {home_consoles.map(home_console => (
-            <Console name={home_console.name} imgSrc={home_console.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems} />
+            <Console name={home_console.name} imgSrc={process.env.PUBLIC_URL + home_console.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems} />
           ))}
         </div>
 
@@ -208,7 +208,7 @@ function App() {
 
         <div className="row">
           {handhelds.map(handheld => (
-            <Console name={handheld.name} imgSrc={handheld.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems} />
+            <Console name={handheld.name} imgSrc={process.env.PUBLIC_URL + handheld.imgSrc} ownedSystems={ownedSystems} setOwnedSystems={setOwnedSystems} />
           ))}
         </div>
 
@@ -223,7 +223,7 @@ function App() {
 
         <div class="row">
           {main_series.map(game => (
-            <Game name={game.name} imgSrc={game.imgSrc} playable={isPlayable(game.name, allGames, ownedSystems)} detail={getGameDetail(game.name, allGames, ownedSystems)} />
+            <Game name={game.name} imgSrc={process.env.PUBLIC_URL + game.imgSrc} playable={isPlayable(game.name, allGames, ownedSystems)} detail={getGameDetail(game.name, allGames, ownedSystems)} />
           ))}
         </div>
 
@@ -231,7 +231,7 @@ function App() {
 
         <div class="row">
           {spin_offs.map(game => (
-            <Game name={game.name} imgSrc={game.imgSrc} playable={isPlayable(game.name, allGames, ownedSystems)} detail={getGameDetail(game.name, allGames, ownedSystems)} />
+            <Game name={game.name} imgSrc={process.env.PUBLIC_URL + game.imgSrc} playable={isPlayable(game.name, allGames, ownedSystems)} detail={getGameDetail(game.name, allGames, ownedSystems)} />
           ))}
         </div>
 

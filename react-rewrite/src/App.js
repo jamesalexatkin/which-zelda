@@ -240,7 +240,7 @@ function App() {
 
       <footer>
         <p>Game trademarks and copyrights are properties of their respective owners. Nintendo properties are trademarks of Nintendo. © 2020 Nintendo.</p>
-        <p>Images courtesy of <a href="https://commons.wikimedia.org/wiki/User:Evan-Amos">Evan Amos</a>. </p>
+        <p>Console images courtesy of <a href="https://commons.wikimedia.org/wiki/User:Evan-Amos">Evan Amos</a>, <a href="https://commons.wikimedia.org/wiki/File:New_Nintendo_3DS.png">Philip Terry Graham</a>, <a href="https://commons.wikimedia.org/wiki/File:New_Nintendo_2ds_XL.png">LBDMCOM12</a>. </p>
         <p class="footer-p">Website created by <a href="https://jamesatk.in">James Atkin</a>. © JAMES ATKIN 2020. <a href="https://github.com/jamesalexatkin/which-zelda">View on Github</a></p>
       </footer>
 

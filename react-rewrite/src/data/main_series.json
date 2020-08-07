@@ -214,6 +214,10 @@
             {
                 "name": "DSi",
                 "detail": "DSiWare download"
+            },
+            {
+                "name": "3DS",
+                "detail": "eShop download"
             }
         ]
     },

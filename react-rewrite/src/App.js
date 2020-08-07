@@ -189,11 +189,11 @@ function App() {
 
         <h3>Spin-offs</h3>
 
-        {/* <div class="row">
+        <div class="row">
           {spin_offs.map(game => (
-            <Game name={game.name} imgSrc={game.imgSrc} ownedSystems={ownedSystems} />
+            <Game name={game.name} imgSrc={game.imgSrc} playable={isPlayable(game.name, allGames, ownedSystems)} detail={getGameDetail(game.name, allGames, ownedSystems)} />
           ))}
-        </div> */}
+        </div>
 
       </div>
 

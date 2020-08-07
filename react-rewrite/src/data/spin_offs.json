@@ -1,11 +1,52 @@
 [
     {
+        "name": "Freshly-Picked Tingle's Rosy Rupeeland",
+        "imgSrc": "/img/FPTRR.jpg",
+        "playable": false,
+        "systemsPlayableOn": [
+            {
+                "name": "DS",
+                "detail": "Original release"
+            }
+        ]
+    },
+    {
         "name": "Link's Crossbow Training",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/11/Link%27s_Crossbow_Training.jpg",
+        "imgSrc": "/img/LCT.png",
         "playable": false,
         "systemsPlayableOn": [
             {
                 "name": "Wii",
+                "detail": "Original release"
+            }
+        ]
+    },
+    {
+        "name": "Hyrule Warriors",
+        "imgSrc": "/img/HW.png",
+        "playable": false,
+        "systemsPlayableOn": [
+            {
+                "name": "Wii U",
+                "detail": "Original release"
+            },
+            {
+                "name": "3DS",
+                "detail": "Re-released as Hyrule Warriors Legends"
+            },
+            {
+                "name": "Switch",
+                "detail": "Re-released as Hyrule Warriors: Definitive Edition"
+            }
+        ]
+    },
+    {
+        "name": "Cadence of Hyrule",
+        "imgSrc": "/img/CoH.png",
+        "playable": false,
+        "systemsPlayableOn": [
+            {
+                "name": "Switch",
                 "detail": "Original release"
             }
         ]

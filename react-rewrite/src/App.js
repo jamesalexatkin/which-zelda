@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
+// import { Helmet } from 'react-helmet'
 import './App.css';
 import Console from './Console.js';
 import Game from './Game.js';
@@ -12,9 +12,12 @@ import ordered_systems from './data/ordered_systems.json'
 
 function App() {
 
+  // Set page title
+  document.title = 'Which Zelda games can I play?';
+
   const [ownedSystems, setOwnedSystems] = useState([]);
   var allGames = main_series.concat(spin_offs);
-  var allSystems = home_consoles.concat(handhelds);
+  var allSystems = home_consoles.concat(handhelds);  
 
   function getElByPropVal(arr, prop, val) {
 
@@ -145,6 +148,7 @@ function App() {
 
   return (
     <div className="App">
+
       <h1>Which Zelda games can I play?</h1>
 
       <p>Select which consoles you have below and we'll show you which Zelda games are available to you.</p>

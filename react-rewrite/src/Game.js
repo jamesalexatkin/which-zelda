@@ -10,7 +10,7 @@ function Game({ name, imgSrc, playable, detail }) {
         <p style={{whiteSpace: "pre-line"}}>{detail}</p>
       </div>
       <div className="container">
-        <h4><b>{name}</b></h4>
+        <h4><b>{playable ? name + " ✅" : name}</b></h4>
       </div>
     </div>
   )

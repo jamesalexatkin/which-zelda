@@ -1,42 +1,42 @@
 [
     {
         "name": "NES",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/8/82/NES-Console-Set.jpg"
+        "imgSrc": "/img/consoles/NES.jpg"
     },
     {
         "name": "SNES",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/SNES-Mod1-Console-Set.jpg/800px-SNES-Mod1-Console-Set.jpg"
+        "imgSrc": "/img/consoles/SNES.jpg"
     },
     {
         "name": "N64",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Nintendo-64-wController-L.jpg/800px-Nintendo-64-wController-L.jpg"
+        "imgSrc": "/img/consoles/N64.jpg"
     },
     {
         "name": "GameCube",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/GameCube-Set.jpg/800px-GameCube-Set.jpg"
+        "imgSrc": "/img/consoles/GameCube.jpg"
     },
     {
         "name": "Wii",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Wii-console.jpg/600px-Wii-console.jpg",
+        "imgSrc": "/img/consoles/Wii.jpg",
         "backwardsCompat": true,
         "bcWith": "GameCube",
         "bcAlias": "GCN"
     },
     {
         "name": "Wii Mini",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Wii-Mini-Console-Set-H.jpg/800px-Wii-Mini-Console-Set-H.jpg",
+        "imgSrc": "/img/consoles/Wii Mini.jpg",
         "isVariant": true,
         "variantOf": "Wii"
     },
     {
         "name": "Wii U",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nintendo-Wii-U-Console-FL.jpg",
+        "imgSrc": "/img/consoles/Wii U.jpg",
         "backwardsCompat": true,
         "bcWith": "Wii",
         "bcAlias": "Wii"
     },
     {
         "name": "Switch",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/800px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
+        "imgSrc": "/img/consoles/Switch.jpg"
     }
 ]

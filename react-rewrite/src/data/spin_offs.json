@@ -1,7 +1,7 @@
 [
     {
         "name": "Freshly-Picked Tingle's Rosy Rupeeland",
-        "imgSrc": "/img/FPTRR.jpg",
+        "imgSrc": "/img/games/FPTRR.jpg",
         "playable": false,
         "systemsPlayableOn": [
             {
@@ -12,7 +12,7 @@
     },
     {
         "name": "Link's Crossbow Training",
-        "imgSrc": "/img/LCT.png",
+        "imgSrc": "/img/games/LCT.png",
         "playable": false,
         "systemsPlayableOn": [
             {
@@ -23,7 +23,7 @@
     },
     {
         "name": "Hyrule Warriors",
-        "imgSrc": "/img/HW.png",
+        "imgSrc": "/img/games/HW.png",
         "playable": false,
         "systemsPlayableOn": [
             {
@@ -42,7 +42,7 @@
     },
     {
         "name": "Cadence of Hyrule",
-        "imgSrc": "/img/CoH.png",
+        "imgSrc": "/img/games/CoH.png",
         "playable": false,
         "systemsPlayableOn": [
             {

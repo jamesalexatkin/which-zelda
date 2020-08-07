@@ -1,7 +1,7 @@
 [
     {
         "name": "The Legend of Zelda",
-        "imgSrc": "/img/TLoZ.png",
+        "imgSrc": "/img/games/TLoZ.png",
         "systemsPlayableOn": [
             {
                 "name": "NES",
@@ -35,7 +35,7 @@
     },
     {
         "name": "The Adventure of Link",
-        "imgSrc": "/img/TAoL.png",
+        "imgSrc": "/img/games/TAoL.png",
         "systemsPlayableOn": [
             {
                 "name": "NES",
@@ -69,7 +69,7 @@
     },
     {
         "name": "A Link to the Past",
-        "imgSrc": "/img/ALttP.png",
+        "imgSrc": "/img/games/ALttP.png",
         "systemsPlayableOn": [
             {
                 "name": "SNES",
@@ -103,7 +103,7 @@
     },
     {
         "name": "Link's Awakening",
-        "imgSrc": "/img/LA.png",
+        "imgSrc": "/img/games/LA.png",
         "systemsPlayableOn": [
             {
                 "name": "Game Boy",
@@ -125,7 +125,7 @@
     },
     {
         "name": "Ocarina of Time",
-        "imgSrc": "/img/OoT.png",
+        "imgSrc": "/img/games/OoT.png",
         "systemsPlayableOn": [
             {
                 "name": "N64",
@@ -151,7 +151,7 @@
     },
     {
         "name": "Majora's Mask",
-        "imgSrc": "/img/MM.png",
+        "imgSrc": "/img/games/MM.png",
         "systemsPlayableOn": [
             {
                 "name": "N64",
@@ -177,7 +177,7 @@
     },
     {
         "name": "Oracle of Ages",
-        "imgSrc": "/img/OoA.png",
+        "imgSrc": "/img/games/OoA.png",
         "systemsPlayableOn": [
             {
                 "name": "Game Boy Color",
@@ -191,7 +191,7 @@
     },
     {
         "name": "Oracle of Seasons",
-        "imgSrc": "/img/OoS.png",
+        "imgSrc": "/img/games/OoS.png",
         "systemsPlayableOn": [
             {
                 "name": "Game Boy Color",
@@ -205,7 +205,7 @@
     },
     {
         "name": "Four Swords",
-        "imgSrc": "/img/FS.png",
+        "imgSrc": "/img/games/FS.png",
         "systemsPlayableOn": [
             {
                 "name": "Game Boy Advance",
@@ -223,7 +223,7 @@
     },
     {
         "name": "Wind Waker",
-        "imgSrc": "/img/WW.jpg",
+        "imgSrc": "/img/games/WW.jpg",
         "systemsPlayableOn": [
             {
                 "name": "GameCube",
@@ -237,7 +237,7 @@
     },
     {
         "name": "Four Swords Adventures",
-        "imgSrc": "/img/FSA.png",
+        "imgSrc": "/img/games/FSA.png",
         "systemsPlayableOn": [
             {
                 "name": "GameCube",
@@ -247,7 +247,7 @@
     },
     {
         "name": "Minish Cap",
-        "imgSrc": "/img/MC.jpg",
+        "imgSrc": "/img/games/MC.jpg",
         "systemsPlayableOn": [
             {
                 "name": "Game Boy Advance",
@@ -265,7 +265,7 @@
     },
     {
         "name": "Twilight Princess",
-        "imgSrc": "/img/TP.jpg",
+        "imgSrc": "/img/games/TP.jpg",
         "systemsPlayableOn": [
             {
                 "name": "GameCube",
@@ -283,7 +283,7 @@
     },
     {
         "name": "Phantom Hourglass",
-        "imgSrc": "/img/PH.jpg",
+        "imgSrc": "/img/games/PH.jpg",
         "systemsPlayableOn": [
             {
                 "name": "DS",
@@ -297,7 +297,7 @@
     },
     {
         "name": "Spirit Tracks",
-        "imgSrc": "/img/ST.jpg",
+        "imgSrc": "/img/games/ST.jpg",
         "systemsPlayableOn": [
             {
                 "name": "DS",
@@ -311,7 +311,7 @@
     },
     {
         "name": "Skyward Sword",
-        "imgSrc": "/img/SS.jpg",
+        "imgSrc": "/img/games/SS.jpg",
         "systemsPlayableOn": [
             {
                 "name": "Wii",
@@ -325,7 +325,7 @@
     },
     {
         "name": "A Link Between Worlds",
-        "imgSrc": "/img/ALBW.jpg",
+        "imgSrc": "/img/games/ALBW.jpg",
         "systemsPlayableOn": [
             {
                 "name": "3DS",
@@ -335,7 +335,7 @@
     },
     {
         "name": "Tri Force Heroes",
-        "imgSrc": "/img/TFH.jpg",
+        "imgSrc": "/img/games/TFH.jpg",
         "systemsPlayableOn": [
             {
                 "name": "3DS",
@@ -345,7 +345,7 @@
     },
     {
         "name": "Breath of the Wild",
-        "imgSrc": "/img/BotW.jpg",
+        "imgSrc": "/img/games/BotW.jpg",
         "systemsPlayableOn": [
             {
                 "name": "Wii U",

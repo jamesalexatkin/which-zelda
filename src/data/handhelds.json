@@ -91,12 +91,10 @@
         "imgSrc": "/img/consoles/3DS.jpg",
         "backwardsCompat": true,
         "bcWith": [
-            "DS",
-            "DSi"
+            "DS"
         ],
         "bcAlias": [
-            "DS",
-            "DSi"
+            "DS"
         ]
     },
     {
@@ -104,12 +102,10 @@
         "imgSrc": "/img/consoles/3DS XL.jpg",
         "backwardsCompat": true,
         "bcWith": [
-            "DS",
-            "DSi"
+            "DS"
         ],
         "bcAlias": [
-            "DS",
-            "DSi"
+            "DS"
         ],
         "isVariant": true,
         "variantOf": "3DS"
@@ -119,12 +115,10 @@
         "imgSrc": "/img/consoles/2DS.jpg",
         "backwardsCompat": true,
         "bcWith": [
-            "DS",
-            "DSi"
+            "DS"
         ],
         "bcAlias": [
-            "DS",
-            "DSi"
+            "DS"
         ],
         "isVariant": true,
         "variantOf": "3DS"
@@ -134,12 +128,10 @@
         "imgSrc": "/img/consoles/New 3DS.png",
         "backwardsCompat": true,
         "bcWith": [
-            "DS",
-            "DSi"
+            "DS"
         ],
         "bcAlias": [
-            "DS",
-            "DSi"
+            "DS"
         ],
         "isVariant": true,
         "variantOf": "3DS"
@@ -149,12 +141,10 @@
         "imgSrc": "/img/consoles/New 3DS XL.jpg",
         "backwardsCompat": true,
         "bcWith": [
-            "DS",
-            "DSi"
+            "DS"
         ],
         "bcAlias": [
-            "DS",
-            "DSi"
+            "DS"
         ],
         "isVariant": true,
         "variantOf": "3DS"
@@ -164,12 +154,10 @@
         "imgSrc": "/img/consoles/New 2DS XL.png",
         "backwardsCompat": true,
         "bcWith": [
-            "DS",
-            "DSi"
+            "DS"
         ],
         "bcAlias": [
-            "DS",
-            "DSi"
+            "DS"
         ],
         "isVariant": true,
         "variantOf": "3DS"

@@ -74,8 +74,8 @@ function App() {
                 }
               }
             }
+          }
         }
-      }
         // Case 3. - system variant
         if (systemObj.isVariant === true) {
           for (var j = 0; j < systemsPlayableOn.length; j++) {
@@ -143,7 +143,7 @@ function App() {
                 }
               }
             }
-            
+
           }
         }
 
@@ -172,6 +172,19 @@ function App() {
       <h1>Which Zelda games can I play?</h1>
 
       <p>Select which consoles you have below and we'll show you which Zelda games are available to you.</p>
+
+      <p>This includes:</p>
+
+      <ul>
+        <li>Original releases for a system</li>
+        <li>Ports and remasters</li>
+        <li>Titles playable due to&nbsp;
+          <div className="tooltip"> backwards compatibility
+            <div className="tooltiptext">Denoted by "B/C"</div>
+          </div>
+        </li>
+        <li>Virtual Console releases</li>
+      </ul>
 
       <div>
         <h2>Consoles</h2>

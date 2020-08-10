@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/which-zelda/static/css/main.e39d5e6d.chunk.css",
-    "main.js": "/which-zelda/static/js/main.a65ce8b0.chunk.js",
-    "main.js.map": "/which-zelda/static/js/main.a65ce8b0.chunk.js.map",
+    "main.css": "/which-zelda/static/css/main.ab0fb60b.chunk.css",
+    "main.js": "/which-zelda/static/js/main.53872f79.chunk.js",
+    "main.js.map": "/which-zelda/static/js/main.53872f79.chunk.js.map",
     "runtime-main.js": "/which-zelda/static/js/runtime-main.301ed116.js",
     "runtime-main.js.map": "/which-zelda/static/js/runtime-main.301ed116.js.map",
     "static/js/2.90a84ea0.chunk.js": "/which-zelda/static/js/2.90a84ea0.chunk.js",
     "static/js/2.90a84ea0.chunk.js.map": "/which-zelda/static/js/2.90a84ea0.chunk.js.map",
     "index.html": "/which-zelda/index.html",
-    "precache-manifest.048daa3d3e3fadc4aa17d4aaa6ff0595.js": "/which-zelda/precache-manifest.048daa3d3e3fadc4aa17d4aaa6ff0595.js",
+    "precache-manifest.b89d7b86838653ac508392f7f6962fa4.js": "/which-zelda/precache-manifest.b89d7b86838653ac508392f7f6962fa4.js",
     "service-worker.js": "/which-zelda/service-worker.js",
-    "static/css/main.e39d5e6d.chunk.css.map": "/which-zelda/static/css/main.e39d5e6d.chunk.css.map",
+    "static/css/main.ab0fb60b.chunk.css.map": "/which-zelda/static/css/main.ab0fb60b.chunk.css.map",
     "static/js/2.90a84ea0.chunk.js.LICENSE.txt": "/which-zelda/static/js/2.90a84ea0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/which-zelda/static/media/HyliaSerifBeta-Regular.a9519052.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.301ed116.js",
     "static/js/2.90a84ea0.chunk.js",
-    "static/css/main.e39d5e6d.chunk.css",
-    "static/js/main.a65ce8b0.chunk.js"
+    "static/css/main.ab0fb60b.chunk.css",
+    "static/js/main.53872f79.chunk.js"
   ]
 }

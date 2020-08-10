@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24e7e9ae531758983e9a42ff7f98f869",
+    "revision": "303b40623b49f5cb558df1d24cfa24a8",
     "url": "/which-zelda/index.html"
   },
   {
-    "revision": "0420031c397db7e0b676",
-    "url": "/which-zelda/static/css/main.ab0fb60b.chunk.css"
+    "revision": "f3a5f0b4a5ec4ec7b7d6",
+    "url": "/which-zelda/static/css/main.4bf51b60.chunk.css"
   },
   {
     "revision": "fd81425bcd1e4e481bb7",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/which-zelda/static/js/2.90a84ea0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0420031c397db7e0b676",
+    "revision": "f3a5f0b4a5ec4ec7b7d6",
     "url": "/which-zelda/static/js/main.53872f79.chunk.js"
   },
   {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/which-zelda/static/css/main.ab0fb60b.chunk.css",
+    "main.css": "/which-zelda/static/css/main.4bf51b60.chunk.css",
     "main.js": "/which-zelda/static/js/main.53872f79.chunk.js",
     "main.js.map": "/which-zelda/static/js/main.53872f79.chunk.js.map",
     "runtime-main.js": "/which-zelda/static/js/runtime-main.301ed116.js",
@@ -8,16 +8,16 @@
     "static/js/2.90a84ea0.chunk.js": "/which-zelda/static/js/2.90a84ea0.chunk.js",
     "static/js/2.90a84ea0.chunk.js.map": "/which-zelda/static/js/2.90a84ea0.chunk.js.map",
     "index.html": "/which-zelda/index.html",
-    "precache-manifest.b89d7b86838653ac508392f7f6962fa4.js": "/which-zelda/precache-manifest.b89d7b86838653ac508392f7f6962fa4.js",
+    "precache-manifest.cedba78872779a374a06ec2faf0d16d3.js": "/which-zelda/precache-manifest.cedba78872779a374a06ec2faf0d16d3.js",
     "service-worker.js": "/which-zelda/service-worker.js",
-    "static/css/main.ab0fb60b.chunk.css.map": "/which-zelda/static/css/main.ab0fb60b.chunk.css.map",
+    "static/css/main.4bf51b60.chunk.css.map": "/which-zelda/static/css/main.4bf51b60.chunk.css.map",
     "static/js/2.90a84ea0.chunk.js.LICENSE.txt": "/which-zelda/static/js/2.90a84ea0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/which-zelda/static/media/HyliaSerifBeta-Regular.a9519052.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.301ed116.js",
     "static/js/2.90a84ea0.chunk.js",
-    "static/css/main.ab0fb60b.chunk.css",
+    "static/css/main.4bf51b60.chunk.css",
     "static/js/main.53872f79.chunk.js"
   ]
 }

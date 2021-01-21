@@ -16,8 +16,10 @@ I thought it would be a fun idea to see which games I could theoretically play b
 # 💻 Technology
 This project was written in [React.js](https://github.com/facebook/react/).
 
+To run, use `npm install` then `npm start`.
+
 # 🙏 Acknowledgements
 
 * [Nintendo](https://www.nintendo.co.uk/) - creation of consoles and franchise, copyright holders
-* [Evan Amos](https://commons.wikimedia.org/wiki/User:Evan-Amos) - image sourcing
+* [Evan Amos](https://commons.wikimedia.org/wiki/User:Evan-Amos), [LBDCOM12](https://commons.wikimedia.org/wiki/File:New_Nintendo_2ds_XL.png), [Philip Terry Graham](https://commons.wikimedia.org/wiki/File:New_Nintendo_3DS.png) - image sourcing
 * [Omni Jacala](http://artsyomni.com/hyliaserif) - Hylia Serif font

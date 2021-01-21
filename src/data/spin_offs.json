@@ -50,5 +50,16 @@
                 "detail": "Original release"
             }
         ]
+    },
+    {
+        "name": "Hyrule Warriors: Age of Calamity",
+        "imgSrc": "/img/games/HWAoC.png",
+        "playable": false,
+        "systemsPlayableOn": [
+            {
+                "name": "Switch",
+                "detail": "Original release"
+            }
+        ]
     }
 ]

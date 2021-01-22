@@ -18,6 +18,8 @@ This project was written in [React.js](https://github.com/facebook/react/).
 
 To run, use `npm install` then `npm start`.
 
+To deploy, use `npm install --save gh-pages` then `npm run deploy`.
+
 # 🙏 Acknowledgements
 
 * [Nintendo](https://www.nintendo.co.uk/) - creation of consoles and franchise, copyright holders

@@ -146,6 +146,10 @@
             {
                 "name": "Wii U",
                 "detail": "Virtual Console"
+            },
+            {
+                "name": "Switch",
+                "detail": "Nintendo Switch Online N64 Library"
             }
         ]
     },
@@ -172,6 +176,10 @@
             {
                 "name": "Wii U",
                 "detail": "Virtual Console"
+            },
+            {
+                "name": "Switch",
+                "detail": "Upcoming (date TBC) Nintendo Switch Online N64 Library"
             }
         ]
     },

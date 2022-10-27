@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/which-zelda/static/css/main.6f1366fc.css",
+    "main.js": "/which-zelda/static/js/main.cb9b2265.js",
+    "static/media/HyliaSerifBeta-Regular.otf": "/which-zelda/static/media/HyliaSerifBeta-Regular.587194a6240d0f662864.otf",
+    "index.html": "/which-zelda/index.html",
+    "main.6f1366fc.css.map": "/which-zelda/static/css/main.6f1366fc.css.map",
+    "main.cb9b2265.js.map": "/which-zelda/static/js/main.cb9b2265.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f1366fc.css",
+    "static/js/main.cb9b2265.js"
+  ]
+}

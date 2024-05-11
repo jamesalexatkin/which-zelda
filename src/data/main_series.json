@@ -268,6 +268,10 @@
       {
         "name": "Wii U",
         "detail": "Virtual Console"
+      },
+      {
+        "name": "Switch",
+        "detail": "Nintendo Switch Online GBA Library"
       }
     ]
   },

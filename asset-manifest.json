@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/which-zelda/static/css/main.6f1366fc.css",
-    "main.js": "/which-zelda/static/js/main.81c625af.js",
+    "main.css": "/which-zelda/static/css/main.6e748b85.css",
+    "main.js": "/which-zelda/static/js/main.4ce9ef66.js",
     "static/media/HyliaSerifBeta-Regular.otf": "/which-zelda/static/media/HyliaSerifBeta-Regular.587194a6240d0f662864.otf",
     "index.html": "/which-zelda/index.html",
-    "main.6f1366fc.css.map": "/which-zelda/static/css/main.6f1366fc.css.map",
-    "main.81c625af.js.map": "/which-zelda/static/js/main.81c625af.js.map"
+    "main.6e748b85.css.map": "/which-zelda/static/css/main.6e748b85.css.map",
+    "main.4ce9ef66.js.map": "/which-zelda/static/js/main.4ce9ef66.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f1366fc.css",
-    "static/js/main.81c625af.js"
+    "static/css/main.6e748b85.css",
+    "static/js/main.4ce9ef66.js"
   ]
 }

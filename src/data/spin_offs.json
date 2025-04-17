@@ -61,5 +61,16 @@
                 "detail": "Original release"
             }
         ]
+    },
+    {
+        "name": "Hyrule Warriors: Age of Imprisonment",
+        "imgSrc": "/img/games/HWAoI.png",
+        "playable": false,
+        "systemsPlayableOn": [
+            {
+                "name": "Switch 2",
+                "detail": "Original release (upcoming)"
+            }
+        ]
     }
 ]

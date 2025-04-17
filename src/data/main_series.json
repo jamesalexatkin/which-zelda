@@ -30,6 +30,10 @@
       {
         "name": "Switch",
         "detail": "Nintendo Switch Online NES Library"
+      },
+      {
+        "name": "Switch 2",
+        "detail": "Nintendo Switch Online NES Library"
       }
     ]
   },
@@ -63,6 +67,10 @@
       },
       {
         "name": "Switch",
+        "detail": "Nintendo Switch Online NES Library"
+      },
+      {
+        "name": "Switch 2",
         "detail": "Nintendo Switch Online NES Library"
       }
     ]
@@ -98,6 +106,10 @@
       {
         "name": "Switch",
         "detail": "Nintendo Switch Online SNES Library"
+      },
+      {
+        "name": "Switch 2",
+        "detail": "Nintendo Switch Online SNES Library"
       }
     ]
   },
@@ -120,6 +132,14 @@
       {
         "name": "Switch",
         "detail": "Remastered as Link's Awakening"
+      },
+      {
+        "name": "Switch",
+        "detail": "Nintendo Switch Online Game Boy Library"
+      },
+      {
+        "name": "Switch 2",
+        "detail": "Nintendo Switch Online Game Boy Library"
       }
     ]
   },
@@ -149,6 +169,10 @@
       },
       {
         "name": "Switch",
+        "detail": "Nintendo Switch Online N64 Library"
+      },
+      {
+        "name": "Switch 2",
         "detail": "Nintendo Switch Online N64 Library"
       }
     ]
@@ -180,6 +204,10 @@
       {
         "name": "Switch",
         "detail": "Nintendo Switch Online N64 Library"
+      },
+      {
+        "name": "Switch 2",
+        "detail": "Nintendo Switch Online N64 Library"
       }
     ]
   },
@@ -194,6 +222,14 @@
       {
         "name": "3DS",
         "detail": "Virtual Console"
+      },
+      {
+        "name": "Switch",
+        "detail": "Nintendo Switch Online Game Boy Color Library"
+      },
+      {
+        "name": "Switch 2",
+        "detail": "Nintendo Switch Online Game Boy Color Library"
       }
     ]
   },
@@ -208,6 +244,14 @@
       {
         "name": "3DS",
         "detail": "Virtual Console"
+      },
+      {
+        "name": "Switch",
+        "detail": "Nintendo Switch Online Game Boy Color Library"
+      },
+      {
+        "name": "Switch 2",
+        "detail": "Nintendo Switch Online Game Boy Color Library"
       }
     ]
   },
@@ -240,6 +284,10 @@
       {
         "name": "Wii U",
         "detail": "Remastered as Wind Waker HD"
+      },
+      {
+        "name": "Switch 2",
+        "detail": "Nintendo Switch Online GameCube Library (Switch 2)"
       }
     ]
   },
@@ -271,6 +319,10 @@
       },
       {
         "name": "Switch",
+        "detail": "Nintendo Switch Online GBA Library"
+      },
+      {
+        "name": "Switch 2",
         "detail": "Nintendo Switch Online GBA Library"
       }
     ]
@@ -370,12 +422,30 @@
       {
         "name": "Switch",
         "detail": "Original release"
+      },
+      {
+        "name": "Switch 2",
+        "detail": "Nintendo Switch 2 Edition (upcoming)"
       }
     ]
   },
   {
     "name": "Tears of the Kingdom",
     "imgSrc": "/img/games/TotK.png",
+    "systemsPlayableOn": [
+      {
+        "name": "Switch",
+        "detail": "Original release"
+      },
+      {
+        "name": "Switch 2",
+        "detail": "Nintendo Switch 2 Edition (upcoming)"
+      }
+    ]
+  },
+  {
+    "name": "Echoes of Wisdom",
+    "imgSrc": "/img/games/EoW.png",
     "systemsPlayableOn": [
       {
         "name": "Switch",

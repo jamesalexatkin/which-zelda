@@ -46,5 +46,9 @@
     {
         "name": "Switch",
         "imgSrc": "/img/consoles/Switch.jpg"
+    },
+    {
+        "name": "Switch 2",
+        "imgSrc": "/img/consoles/Switch 2.png"
     }
 ]
